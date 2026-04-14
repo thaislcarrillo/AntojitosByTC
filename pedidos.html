@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>AntojitosByTC - Pedidos</title>
+</head>
+
+<body>
+
+<header>
+    <h1>AntojitosByTC</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="pedidos.html">Pedidos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+<!-- FORMULARIO -->
+<section>
+    <h2>Formulario de Pedidos</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Datos del cliente</legend>
+
+            <label>Nombre y Apellido:</label>
+            <input type="text"><br>
+
+            <label>Teléfono:</label>
+            <input type="tel">
+        </fieldset>
+
+        <fieldset>
+            <legend>Entrega</legend>
+
+            <input type="radio" name="entrega"> Retiro
+            <input type="radio" name="entrega"> A domicilio<br>
+
+            <label>Dirección:</label>
+            <input type="text"><br>
+
+            <label>Fecha de entrega:</label>
+            <input type="date">
+        </fieldset>
+
+        <fieldset>
+            <legend>Selecciona tu producto</legend>
+
+            <p>Postres en porciones</p>
+            <input type="checkbox"> Flan Casero
+            <input type="checkbox"> ChocoFlan
+            <input type="checkbox"> Bizcocho de Zanahoria
+            <input type="checkbox"> Pesada de Nance
+			
+			<p>Dulces para cumpleaños</p>
+            <input type="checkbox"> Torta Imposible
+            <input type="checkbox"> Flan Casero
+            <input type="checkbox"> Bizcocho de Zanahoria
+
+            <p>Panadería</p>
+            <input type="checkbox"> Empanadas
+            <input type="checkbox"> Choripán
+            <input type="checkbox"> Pan Bon
+
+            <p>Bebidas</p>
+            <input type="checkbox"> Chicheme
+            <input type="checkbox"> Remolacha con limón
+        </fieldset>
+
+        <fieldset>
+            <legend>Tamaño y cantidad</legend>
+			<p>Tamaño para Dulce</p>
+            <input type="radio" name="tamano"> Chico
+            <input type="radio" name="tamano"> Mediano
+            <input type="radio" name="tamano"> Grande<br>
+			
+			<p>Tamaño de la bebida</p>
+            <input type="radio" name="tamano"> 8 OZ
+            <input type="radio" name="tamano"> 16 OZ<br>
+
+            <label>Cantidad:</label>
+            <input type="number">
+        </fieldset>
+
+        <fieldset>
+            <legend>Personalización</legend>
+			<p>¿Es diabético o Alergico?</p>
+            <input type="radio" name="salud"> Sí
+            <input type="radio" name="salud"> No<br>
+
+            <label>Explique:</label>
+            <input type="text">
+        </fieldset>
+
+        <fieldset>
+          <legend>Describe tu pedido</legend>
+			<p>Cuentanos como deseas tu pedido: Toppings, colores, decoración, tema, manjar, frutas y cualquier detalle especial.</p>
+            <textarea placeholder="Toppings, colores, decoración, tema, manjar, frutas..."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Total</legend>
+            <p>El total será confirmado por WhatsApp según los detalles del pedido.</p>
+        </fieldset>
+
+        <button type="submit">Enviar pedido</button>
+
+        <!-- MENSAJE FINAL -->
+        <p>
+            ¡Gracias por confiar en nosotros! 
+            Pronto nos comunicaremos contigo por WhatsApp para confirmar tu pedido, 
+            el total y los métodos de pago.
+        </p>
+
+    </form>
+</section>
+
+
+</main>
+
+<footer>
+    <p>AntojitosByTC © 2026</p>
+</footer>
+
+</body>
+</html>
